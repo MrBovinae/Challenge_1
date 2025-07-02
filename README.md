@@ -1,3 +1,19 @@
+# 🚀 Fullstack AWS CI/CD Pipeline with Jenkins, ECS, Docker & Terraform
+
+This project demonstrates how to **build and deploy a React frontend and Express backend** in Docker containers using **AWS ECS**, orchestrated by **Jenkins CI/CD**, and fully provisioned with **Terraform**.
+
+---
+
+## 🧭 Architecture Overview
+
+**Stack Includes:**
+
+- **Frontend:** React (Dockerized)
+- **Backend:** Express.js (Dockerized)
+- **CI/CD:** Jenkins (on EC2) with AWS CLI & Docker
+- **Infrastructure:** AWS ECS (Fargate), ECR, ALB, S3, IAM Roles, VPC
+- **IaC Tool:** Terraform
+
 ***Build and deploy a React frontend and Express backend in Docker containers on AWS ECS, managed by Jenkins CI/CD, all provisioned with Terraform.***
 
 
@@ -84,20 +100,10 @@ Update ECS task definitions to use new images.
 Deploy via ECS (you can use aws ecs update-service or Terraform apply).
 
 ✅ 6. Documentation
-What you need to do:
-Write a clear README.md that explains:
 
 
-How you set up the Jenkins server
 
 
-How to deploy the infrastructure using Terraform
-
-
-How to trigger the pipeline
-
-
-Architecture overview (draw a diagram if you want!)
 
 
 
